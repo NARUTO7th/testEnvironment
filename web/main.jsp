@@ -7,49 +7,29 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
     <title>主页面</title>
+    <style type="text/css">
+        @import url("s.css");
+    </style>
 </head>
+<jsp:include page="function.jsp"/>
 
-<%
-    String name = "";
-    if(session==null){
-        name = "";
-    }
-
-//取出用户数据
-name = (String)session.getAttribute("name");
-
-//String name = request.getParameter("username");
-List<Employee> employees = (List<Employee>) request.getAttribute("employees");
-
-String a = "";
-String b = "";
-Object c = request.getAttribute ("status");
-Object r = request.getAttribute ("isDelete");
-if(c != null){
-if((boolean)c) {
-    a = " 添加成功 ！！！";
-}else a = "添加失败！！！";
-}
-
-    if(r != null){
-        if((boolean)r) {
-            b = " 删除成功 ！！！";
-        }else b = "删除失败！！！";
-    }
-%>
 <body>
 
-<p>欢迎你，<%=name%></p>
-<p>这是所有的员工信息</p>
+<h1>欢迎你，${name}</h1>
 
 
-    <%if (employees==null){%>
+
+<c:if test="${empty employees}">
     没有数据！
-    <%}else{%>
-    <table border="1" cellspacing="0">
+</c:if>
+
+<c:if test="${!empty employees}">
+    <table class="content" align="center" border="1" cellspacing="0" >
+        <caption align=“/” border="1">员工信息</caption>
         <tr>
             <th>员工编号</th>
             <th>员工姓名</th>
@@ -57,23 +37,20 @@ if((boolean)c) {
             <th>员工工资</th>
             <th colspan="2">操作</th>
         </tr>
-        <%for(Employee e:employees){%>
+        <c:forEach items="${employees}" var="e">
         <tr>
-            <td><%=e.getE_no()%></td>
-            <td><%=e.getName()%></td>
-            <td><%=e.getBirthday()%></td>
-            <td><%=e.getSalary()%></td>
-            <td><button onclick="del(<%=e.getId()%>)">删除</button></td>
-            <td><button onclick="upd(<%=e.getId()%>)">更新</button></td>
+            <td>${e.e_no}</td>
+            <td>${e.name}</td>
+            <td>${e.birthday}</td>
+            <td>${e.salary}</td>
+            <td><button onclick="del(${e.id})">删除</button></td>
+            <td><button onclick="upd(${e.id})">更新</button></td>
         </tr>
-        <%}%>
+        </c:forEach>
     </table>
-    <%}%>
+</c:if>
 
     <a href="add.jsp">添加用户</a>
-    <p><%=a%></p>
-    <p><%=b%></p>
-
 
 </body>
 <script>

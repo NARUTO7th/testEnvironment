@@ -9,9 +9,14 @@
 <html>
 <head>
     <title>error</title>
+    <style type="text/css">
+        @import url("s.css");
+    </style>
 </head>
+<jsp:include page="function.jsp"/>
 <body>
-<p>用户名或密码不正确</p>
+
+<h3><a href="index.jsp">点击跳转到登陆页面</a></h3>
 
 </body>
 </html>

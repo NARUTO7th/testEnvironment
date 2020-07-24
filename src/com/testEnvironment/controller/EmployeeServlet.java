@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -26,7 +25,7 @@ public class EmployeeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String method = request.getParameter ("method");
         //---------------------------------------------
-        System.out.println ("The operation is " + method);
+        //System.out.println ("The operation is " + method);
 
         try{
             Method declaredMethod = getClass ().getDeclaredMethod (method, HttpServletRequest.class, HttpServletResponse.class);
@@ -69,12 +68,12 @@ public class EmployeeServlet extends HttpServlet {
 
         EmployeeService es = new EmployeeService ();
         if(es.deleteEmployee (id)){
-            request.setAttribute ("isDelete",true);
+            request.setAttribute ("msg","删除成功！！！");
             request.setAttribute ("employees", es.getEmployees ());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher ("main.jsp");
             requestDispatcher.forward (request,response);
         }else{
-            request.setAttribute ("isDelete",false);
+            request.setAttribute ("msg","删除失败！！！");
             request.setAttribute ("employees", es.getEmployees ());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher ("main.jsp");
             requestDispatcher.forward (request,response);
@@ -86,7 +85,7 @@ public class EmployeeServlet extends HttpServlet {
         String username = request.getParameter ("username");
         String password = request.getParameter ("password");
         String s1 = request.getParameter ("birthday");
-        //ystem.out.println (s1);
+
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date parse = null;
@@ -103,11 +102,11 @@ public class EmployeeServlet extends HttpServlet {
         //System.out.println ("This is EmployeeServlet！！");
 
         if (employeeService.addEmployee (e_no, username, password, parse, salary)) {
-            request.setAttribute ("status",true);
+            request.setAttribute ("msg","添加成功！！！");
             request.setAttribute ("employees", employeeService.getEmployees ());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher ("main.jsp");
             requestDispatcher.forward (request,response);
-        }else {request.setAttribute ("status",false);
+        }else {request.setAttribute ("msg","添加失败！！！");
         request.setAttribute ("employees", employeeService.getEmployees ());
         RequestDispatcher requestDispatcher = request.getRequestDispatcher ("main.jsp");
         requestDispatcher.forward (request,response);}
@@ -130,7 +129,7 @@ public class EmployeeServlet extends HttpServlet {
         //String s3 = request.getParameter ("id");
         HttpSession session = request.getSession ();
         String s3 = (String) session.getAttribute ("id");
-        System.out.println ("id = " + s3);
+        //System.out.println ("id = " + s3);
         int id = Integer.parseInt (s3);
         String e_no = request.getParameter ("e_no");
         String username = request.getParameter ("username");
@@ -159,12 +158,12 @@ public class EmployeeServlet extends HttpServlet {
         EmployeeService employeeService = new EmployeeService ();
 
         if(employeeService.isUpdate (employee)){
-            request.setAttribute ("isUpdated",true);
+            request.setAttribute ("msg","更新成功！！！");
             request.setAttribute ("employees", employeeService.getEmployees ());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher ("main.jsp");
             requestDispatcher.forward (request,response);
         }else {
-            request.setAttribute ("isUpdated",false);
+            request.setAttribute ("msg","更新失败！！！");
             request.setAttribute ("employees", employeeService.getEmployees ());
             RequestDispatcher requestDispatcher = request.getRequestDispatcher ("update.jsp");
             requestDispatcher.forward (request,response);

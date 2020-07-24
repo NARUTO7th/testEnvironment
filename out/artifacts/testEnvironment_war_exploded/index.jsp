@@ -9,14 +9,22 @@
 <html>
   <head>
     <title>登录</title>
+    <style type="text/css">
+      @import url("s.css");
+    </style>
   </head>
   <body>
-
+<div class="parent">
+  <div class="login" align="center">
   <form action="${pageContext.request.contextPath}/employee" method="POST">
     <input type="hidden" name="method" value="login"/>
     用户名：<input type="text" name="username"/><br/>
-    密码：<input type="password" name="password"/>
+    密码：&nbsp&nbsp&nbsp&nbsp<input type="password" name="password"/><br/>
+    <br/>
+    <br/>
     <input type="submit" value="登录"/>
   </form>
+</div>
+</div>
   </body>
 </html>
