@@ -25,28 +25,6 @@
       <change afterPath="$PROJECT_DIR$/../ploymorphnism_Test/src/application/Phone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ploymorphnism_Test/src/application/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ploymorphnism_Test/src/application/TypeC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/standard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/classes/com/testEnvironment/filter/employeeFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/lib/junit-4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/function.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/testEnvironment/com/testEnvironment/filter/employeeFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/testEnvironment/test/com/testEnvironment/dao/EmployeeDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testEnvironment/filter/employeeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/com/testEnvironment/dao/EmployeeDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/function.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/s.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSI311/Java B-Tree/Fall 2018 - Java B-Tree.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSI311/Java B-Tree/FindTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSI311/Java B-Tree/LeafNode.java" beforeDir="false" />
@@ -70,26 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../CSI333/project4-MAL_Processer/text.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSI333/project5-ProcessNumberbydiffRepresentation/Project5_Instructions(CQUPT19) .docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSI333/project5-ProcessNumberbydiffRepresentation/p5.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/classes/com/testEnvironment/controller/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/classes/com/testEnvironment/controller/EmployeeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testEnvironment_war_exploded/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testEnvironment/com/testEnvironment/controller/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testEnvironment/com/testEnvironment/controller/EmployeeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testEnvironment/controller/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testEnvironment/controller/EmployeeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testEnvironment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testEnvironment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/delete.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -360,7 +319,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -648,7 +607,7 @@
       <workItem from="1595430080647" duration="1627000" />
       <workItem from="1595474380705" duration="3305000" />
       <workItem from="1595492010701" duration="1348000" />
-      <workItem from="1595586581377" duration="1281000" />
+      <workItem from="1595586581377" duration="1700000" />
     </task>
     <task id="LOCAL-00001" summary="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML&#10;--2020/7/22">
       <created>1595388666400</created>
@@ -664,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595395247622</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator&#10;--2020/7/22">
+      <created>1595592633704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595592633704</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -700,7 +666,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90988000" />
+    <option name="totallyTimeSpent" value="91407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="157" width="1011" height="550" extended-state="0" />
@@ -779,9 +745,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML&#10;--2020/7/22" />
-    <MESSAGE value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator&#10;--2020/7/22" />
     <MESSAGE value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator,Filter&#10;--2020/7/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator,Filter&#10;--2020/7/22" />
+    <MESSAGE value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator&#10;--2020/7/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSP,Servlet,JS,EL,JDBC,OOP,SQL,HTML,JSTL,unit test with JUnitGnerator&#10;--2020/7/22" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class">
